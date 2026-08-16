@@ -1,0 +1,37 @@
+nav {
+  background: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #050505;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

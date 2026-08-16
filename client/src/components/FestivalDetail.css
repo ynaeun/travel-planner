@@ -1,0 +1,158 @@
+.festival-detail-container {
+  padding: 1rem;
+}
+
+.festival-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.festival-detail-title {
+  margin: 0;
+}
+
+.festival-detail-plan-btn {
+  background: #3b5998;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.4rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.festival-detail-plan-btn:hover {
+  background: #29487d;
+}
+
+.festival-detail-image {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+.festival-detail-map {
+  width: 100%;
+  height: 300px;
+  margin: 16px 0;
+  border: 1px solid #ccc;
+}
+
+.festival-detail-overview {
+  margin: 16px 0;
+  white-space: pre-line;
+}
+.festival-detail-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 98vw;
+  max-width: 1200px;
+  max-height: 96vh;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.festival-detail-modal-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  color: #444;
+  cursor: pointer;
+  z-index: 1100;
+  transition: color 0.2s;
+}
+.festival-detail-modal-close:hover {
+  color: #3b5998;
+}
+
+.festival-detail-modal-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.festival-detail-modal-left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.festival-detail-modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.festival-detail-modal-desc {
+  margin-bottom: 1.5rem;
+  color: #222;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.festival-detail-modal-info {
+  margin-bottom: 2rem;
+  color: #444;
+  font-size: 1rem;
+}
+
+/* 지도 왼쪽 하단에 고정 (일정만들기 버튼 위) */
+.festival-detail-modal-map {
+  width: 100%;
+  max-width: 320px;
+  height: 220px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: auto;
+  margin-bottom: 1.5rem;
+}
+
+.festival-detail-plan-btn {
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0;
+  transition: background 0.2s;
+}
+
+.festival-detail-plan-btn:hover {
+  background: #3b5998;
+}
+
+.festival-detail-modal-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.festival-detail-modal-image {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
