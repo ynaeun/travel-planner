@@ -29,9 +29,9 @@ AI 기반 여행 계획:
 CSS <br>
 백엔드:
 Node.js<br>
-AI 연동 (AI Integration):
+AI 연동 :
 gemini<br>
-지도 서비스 (Mapping Service):
+지도 서비스 :
 카카오맵 API<br>
 개발 환경 
 Visual Studio Code
